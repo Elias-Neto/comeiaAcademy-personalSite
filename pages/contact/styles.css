@@ -1,0 +1,150 @@
+header {
+  background-color: var(--BLACK-800);
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-wrapper {
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  padding-block: 5rem;
+}
+
+.profile-wrapper img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.profile-wrapper .text-wrapper {
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-wrapper .text-wrapper h1 {
+  font-size: 2.8rem;
+}
+
+.profile-wrapper .text-wrapper p {
+  font-size: 1.8rem;
+}
+
+nav {
+  width: 100%;
+  background-color: var(--BLACK-900);
+}
+
+nav ul {
+  list-style: none;
+
+  padding-block: 2rem;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav ul li {
+  padding: 1rem 4rem;
+
+  cursor: pointer;
+
+  letter-spacing: 0.1rem;
+}
+
+ul a {
+  color: var(--WHITE);
+}
+
+li.active {
+  font-weight: 500;
+  color: var(--BLUE);
+
+  border-bottom: 0.2rem solid var(--BLUE);
+}
+
+li:hover {
+  color: var(--BLUE);
+}
+
+main {
+  flex-direction: column;
+  gap: 3.2rem;
+
+  max-width: 80rem;
+  margin: auto;
+  padding: 6.4rem 1rem;
+}
+
+form {
+  background-color: var(--BLACK-800);
+  padding: 5rem;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 6.4rem;
+}
+
+.input-wrapper {
+  flex-direction: column;
+  gap: 1.2rem;
+
+  width: 100%;
+}
+
+label {
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+}
+
+input,
+textarea {
+  border: 0.2rem solid var(--BLUE);
+  background-color: var(--BLACK-900);
+  border-radius: 0.5rem;
+  padding: 2.2rem 1.4rem;
+  outline: none;
+
+  font-size: 1.4rem;
+}
+
+input:valid,
+input:invalid {
+  background-color: var(--BLACK-900);
+  height: 3.2rem;
+}
+
+input:invalid {
+  border-color: rgb(202, 40, 75);
+}
+
+form button {
+  background-color: var(--BLUE);
+  border-radius: 0.5rem;
+  padding: 1.5rem 3rem;
+  border: none;
+
+  color: var(--BLACK-900);
+  font-weight: 800;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+footer {
+  background-color: var(--BLACK-900);
+  padding-block: 4rem;
+
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
