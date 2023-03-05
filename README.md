@@ -1,11 +1,5 @@
 <h1 align="center">🙋‍♂️ Personal WebSite</h1>
 
-<p align="center" >
-  <a href="#about">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#learning">Aprendizados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#techs">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
-
 <br>
 
 <img src="./.github/academyPersonalSite.gif">
