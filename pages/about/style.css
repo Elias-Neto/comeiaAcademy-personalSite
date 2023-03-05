@@ -56,18 +56,18 @@ nav ul li {
   transition: 0.2s;
 }
 
-ul a {
+nav ul a {
   color: var(--WHITE);
 }
 
-li.active {
+nav ul li.active {
   font-weight: 500;
   color: var(--BLUE);
 
   border-bottom: 0.2rem solid var(--BLUE);
 }
 
-li:hover {
+nav ul li:hover {
   color: var(--BLUE);
 }
 
