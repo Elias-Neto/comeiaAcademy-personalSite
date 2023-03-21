@@ -22,6 +22,7 @@ Site Pessoal dividido em 3 partes: "Sobre" - reúne um resumo sobre mim e as min
 
 - Fundamentos do HTML;
 - Fundamentos de CSS;
+- Validação de Formulário e Envio para Whatsapp.
 
 <br>
 
