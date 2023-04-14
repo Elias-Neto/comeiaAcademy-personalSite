@@ -12,9 +12,9 @@
 
 <h2 id="about"> 💻 Projeto </h2>
 
-Esse projeto foi desenvolvido durante um programa de desenvolvimento de software [Comeia Academy](https://academy.comeialabs.com.br/).
+Esse projeto foi desenvolvido durante o bootcamp de desenvolvimento de software [Comeia Academy](https://academy.comeialabs.com.br/).
 
-Site Pessoal dividido em 3 partes: "Sobre" - reúne um resumo sobre mim e as minhas experiências educacionais; "Projetos" demonstrações de projetos; "Contato" - formulário (não funcional) pra entrar em contato.
+Site Pessoal dividido em 3 partes: "Sobre" - reúne um resumo sobre mim e as minhas experiências educacionais; "Projetos" - demonstrações de projetos; "Contato" - formulário pra entrar em contato.
 
 <br>
 
@@ -23,6 +23,7 @@ Site Pessoal dividido em 3 partes: "Sobre" - reúne um resumo sobre mim e as min
 - Fundamentos do HTML;
 - Fundamentos de CSS;
 - Validação de Formulário e Envio para Whatsapp.
+- Máscara para Input de Telefone;
 
 <br>
 
